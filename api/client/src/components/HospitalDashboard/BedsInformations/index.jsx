@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styled from 'styled-components'
-import { colors } from "colors";
+import colors from "colors";
 import Card from 'components/DashboardShared/CardLayout'
 import AddButton from 'assets/images/add.svg'
 // import EditButton from 'assets/images/edit.svg'

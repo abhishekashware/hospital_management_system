@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import Logo from 'assets/images/Logo.svg'
 import Button from 'components/GlobalComponents/Button/index'
-import { colors } from 'colors'
+import colors from "colors"
 import {Link} from 'react-router-dom'
 import axios from 'axios'
 

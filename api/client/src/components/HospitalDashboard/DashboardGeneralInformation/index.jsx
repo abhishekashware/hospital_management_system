@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { colors } from "colors";
+import colors from "colors";
 import Card from 'components/DashboardShared/CardLayout'
 import EditProfileForm from 'components/HospitalDashboard/EditProfileForm'
 import EditButton from 'assets/images/edit.svg'

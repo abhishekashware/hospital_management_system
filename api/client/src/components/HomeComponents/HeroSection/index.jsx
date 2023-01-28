@@ -1,5 +1,5 @@
 import Button from 'components/GlobalComponents/Button'
-import { colors } from 'colors'
+import colors from "colors"
 import Section from 'components/GlobalComponents/Section'
 import { fonts } from 'fonts'
 import styled from 'styled-components'

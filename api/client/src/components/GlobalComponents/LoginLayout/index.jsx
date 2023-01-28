@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import GridLeftImage from 'assets/images/login-grid-left.svg'
-import { colors } from "colors"
+import colors from "colors"
 const Container = styled.div`
     display: grid;
     grid-template-columns: 1fr 1px 1fr;

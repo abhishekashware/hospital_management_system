@@ -1,6 +1,6 @@
 
 import styled from 'styled-components'
-import { colors } from "colors";
+import colors from "colors";
 import DashboardGeneralInformation from 'components/UserDashboard/DashboardGeneralInformaton'
 import HospitalsNearYou from 'components/UserDashboard/HospitalsNearYou'
 import EventsNearYou from 'components/UserDashboard/EventsNearYou'

@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import { useDispatch, useSelector } from 'react-redux';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { colors } from 'colors';
+import colors from "colors";
 
 const ModalTitle = styled.div`
     font-size: 57px;

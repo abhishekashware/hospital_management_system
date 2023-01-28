@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import Research from 'assets/images/medical-research.svg'
 import Tick from 'assets/images/tick.svg'
 import { fonts } from 'fonts'
-import { colors } from 'colors'
+import colors from "colors"
 
 const AdvantagesContainer = styled.div``
 const AdvantagesSection = styled(Section)`

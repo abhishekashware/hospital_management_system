@@ -1,4 +1,4 @@
-import { colors } from 'colors'
+import colors from "colors"
 import styled from 'styled-components'
 import {useState, useEffect} from 'react';
 import { axiosRequest } from 'utils/axiosRequest';

@@ -1,4 +1,4 @@
-import { colors } from 'colors'
+import colors from "colors"
 import Layout from 'components/GlobalComponents/Layout'
 import Section from 'components/GlobalComponents/Section'
 import { fonts } from 'fonts'

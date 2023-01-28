@@ -1,5 +1,5 @@
 import Logo from 'assets/images/Logo.svg'
-import { colors } from 'colors'
+import colors from "colors"
 import Section from 'components/GlobalComponents/Section'
 import { fonts } from 'fonts'
 import { Link, NavLink } from 'react-router-dom'

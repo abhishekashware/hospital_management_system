@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 import styled from 'styled-components'
 
 import { userRegisterAction } from 'actions/userActions'
-import { colors } from 'colors'
+import colors from "colors"
 import Button from 'components/GlobalComponents/Button'
 import Input from 'components/GlobalComponents/Input'
 import Label from 'components/GlobalComponents/Label'

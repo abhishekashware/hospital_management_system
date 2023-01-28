@@ -2,7 +2,7 @@ import React from "react";
 import Logo from 'assets/images/Logo.svg';
 import { Link, useParams } from 'react-router-dom'
 import styled from 'styled-components';
-import { colors } from "colors";
+import colors from "colors";
 
 import Message from 'assets/images/message.svg'
 import Notifications from 'assets/images/notifications.svg'

@@ -1,4 +1,4 @@
-import { colors } from "colors"
+import colors from "colors"
 import styled from "styled-components"
 import SearchIcon from 'assets/images/search-icon.svg'
 import Button from "components/GlobalComponents/Button"

@@ -10,7 +10,7 @@ import EventsNearYou from "components/UserDashboard/EventsNearYou";
 import HospitalsNearYou from "components/UserDashboard/HospitalsNearYou";
 import DashboardLayout from 'components/DashboardShared/DashboardLayout';
 
-import { colors } from "colors";
+import colors from "colors";
 
 const FlexContainer = styled.div`
   display: flex;

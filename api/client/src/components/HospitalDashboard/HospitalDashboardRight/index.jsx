@@ -5,7 +5,7 @@
 // import axios from "axios";
 // import { useParams } from "react-router";
 import styled from 'styled-components'
-import { colors } from "colors";
+import colors from "colors";
 import DashboardGeneralInformation from 'components/HospitalDashboard/DashboardGeneralInformation'
 import DashboardEvents from 'components/HospitalDashboard/DashboardEvents'
 import DashboardDoctorsInformation from 'components/HospitalDashboard/DashboardDoctorsInformation'

@@ -1,4 +1,4 @@
-import { colors } from 'colors'
+import colors from "colors"
 import React, { useEffect, useState } from 'react'
 import Button from 'components/GlobalComponents/Button';
 import styled from 'styled-components'

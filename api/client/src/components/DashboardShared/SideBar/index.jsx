@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from 'react-router-dom'
 import styled from "styled-components";
-import { colors } from "colors";
+import colors from "colors";
 import LogoutIcon from 'assets/images/logout.svg'
 import { useParams } from "react-router";
 import { useDispatch, useSelector } from "react-redux";

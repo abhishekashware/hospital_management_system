@@ -1,4 +1,4 @@
-import { colors } from 'colors'
+import colors from "colors"
 import React from 'react'
 import styled from 'styled-components'
 import LoginOptionImage from 'assets/images/login-options-left.svg'

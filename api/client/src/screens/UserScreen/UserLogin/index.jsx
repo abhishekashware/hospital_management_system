@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { colors } from 'colors'
+import colors from "colors"
 import Button from 'components/GlobalComponents/Button'
 import Input from 'components/GlobalComponents/Input'
 import Label from 'components/GlobalComponents/Label'

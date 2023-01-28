@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react'
 import Card from 'components/DashboardShared/CardLayout'
 import styled from 'styled-components'
-import { colors } from 'colors'
+import colors from "colors"
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import Button from 'components/GlobalComponents/Button'
 import RightArrow from 'assets/images/right-arrow.svg'

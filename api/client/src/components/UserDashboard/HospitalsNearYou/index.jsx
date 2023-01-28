@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { colors } from 'colors'
+import colors from "colors"
 import Card from 'components/DashboardShared/CardLayout'
 import { fonts } from 'fonts'
 import styled from 'styled-components'
