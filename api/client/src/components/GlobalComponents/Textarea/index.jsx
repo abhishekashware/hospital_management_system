@@ -2,7 +2,7 @@
 import styled from "styled-components/dist/styled-components.js"
 
 const Textarea = styled.textarea`
-    background: ${"#4DADBD"}1A;
+    background: ${"#4DADBD"};
     border-radius: 10px;
     outline: none;
     width: ${props => props.fluid ? "100%" : 'initial'};

@@ -106,7 +106,7 @@ const LoginScreen = () => {
                             {...register("doctorpassword", { required: { value: true, message: "Password required" }, minLength: { value: 5, message: "Password should be atleast 8 charactes long" } })} />
                         {(errors.doctorpassword) && <Error role="alert">{errors.doctorpassword.message}</Error>}
                     </InputGroup>
-                    <ForgetPassword>Forget you  password?</ForgetPassword>
+                    <ForgetPassword>Forget your password?</ForgetPassword>
                     <SubmitButton type="submit" disabled={isSubmitting}>Submit</SubmitButton>
                 </Form>
 

@@ -15,7 +15,7 @@ const FooterContainer = styled.div`
 const index = () => {
     return (
         <FooterContainer>
-            <Section>Made with love by wedwizards❤️</Section>
+            <Section>Powered by Abhi</Section>
         </FooterContainer>
     )
 }

@@ -122,7 +122,7 @@ const Index = () => {
                             {...register("hospitalpassword", { required: { value: true, message: "Password required" }, minLength: { value: 8, message: "Minimum Length of password should be 8 characters" } })} />
                         {(errors.hospitalpassword) && <Error role="alert">{errors.hospitalpassword.message}</Error>}
                     </InputGroup>
-                    <ForgetPassword>Forget you  password?</ForgetPassword>
+                    <ForgetPassword>Forget your password?</ForgetPassword>
                     <SubmitButton type="submit" disabled={isSubmitting}>Submit</SubmitButton>
                 </Form>
 
