@@ -1,5 +1,5 @@
 
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import colors from "colors";
 import DashboardGeneralInformation from 'components/UserDashboard/DashboardGeneralInformaton'
 import HospitalsNearYou from 'components/UserDashboard/HospitalsNearYou'

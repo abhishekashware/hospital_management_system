@@ -4,7 +4,7 @@
 // import { PermMedia } from "@material-ui/icons";
 // import axios from "axios";
 // import { useParams } from "react-router";
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import colors from "colors";
 import DashboardGeneralInformation from 'components/HospitalDashboard/DashboardGeneralInformation'
 import DashboardEvents from 'components/HospitalDashboard/DashboardEvents'

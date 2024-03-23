@@ -4,7 +4,7 @@ import axios from 'axios'
 
 import DashboardLayout from 'components/DashboardShared/DashboardLayout';
 import useGetUserData from "hooks/useGetUserSidebarData";
-import styled from 'styled-components';
+import styled from "styled-components/dist/styled-components.js";
 
 import Button from 'components/GlobalComponents/Button';
 import DashboardContentWrapper from 'components/DashboardShared/DashboardContentWrapper';

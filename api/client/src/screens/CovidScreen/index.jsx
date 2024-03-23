@@ -1,6 +1,6 @@
 import Navbar from 'components/GlobalComponents/Navbar'
 import Footer from 'components/GlobalComponents/Footer'
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 
 const Covid19Container = styled.div`
     min-height: 100vh;

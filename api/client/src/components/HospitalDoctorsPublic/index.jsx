@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react'
 import Card from 'components/DashboardShared/CardLayout'
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import colors from "colors"
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import Button from 'components/GlobalComponents/Button'

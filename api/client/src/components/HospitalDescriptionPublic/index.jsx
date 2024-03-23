@@ -1,7 +1,7 @@
 import colors from "colors"
 import React, { useEffect, useState } from 'react'
 import Button from 'components/GlobalComponents/Button';
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import StarRatings from 'react-star-ratings';
 import Card from 'components/DashboardShared/CardLayout'
 import returnURLFromObjectOfStrings from 'utils/returnURLFromObjectOfStrings';

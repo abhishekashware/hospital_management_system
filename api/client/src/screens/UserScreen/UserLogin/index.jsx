@@ -6,7 +6,7 @@ import Label from 'components/GlobalComponents/Label'
 import LoginLayout from 'components/GlobalComponents/LoginLayout'
 import { fonts } from 'fonts'
 import { useForm } from 'react-hook-form'
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import { useDispatch, useSelector } from 'react-redux'
 import { userLoginAction } from 'actions/userActions'
 import { useHistory } from 'react-router-dom'

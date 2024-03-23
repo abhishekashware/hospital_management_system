@@ -1,6 +1,6 @@
 import colors from "colors"
 import React from 'react'
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import LoginOptionImage from 'assets/images/login-options-left.svg'
 import { fonts } from 'fonts'
 import Button from 'components/GlobalComponents/Button'

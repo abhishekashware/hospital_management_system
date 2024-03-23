@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import colors from "colors";
 import Card from 'components/DashboardShared/CardLayout'
 import EditProfileForm from 'components/HospitalDashboard/EditProfileForm'
