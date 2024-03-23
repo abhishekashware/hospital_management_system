@@ -5,7 +5,7 @@ import DashboardContentWrapper from 'components/DashboardShared/DashboardContent
 import AppointmentDetailsButton from "components/AppointmentDetailsButton";
 import axios from "axios";
 import { useParams } from "react-router-dom";
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import { fonts } from 'fonts';
 
 

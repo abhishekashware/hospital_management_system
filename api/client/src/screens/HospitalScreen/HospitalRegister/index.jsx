@@ -8,7 +8,7 @@ import { fonts } from 'fonts'
 import { useForm } from 'react-hook-form'
 import { useDispatch } from 'react-redux'
 import { useHistory } from 'react-router-dom'
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 
 const FormContainer = styled.div`
     padding-left: 100px;

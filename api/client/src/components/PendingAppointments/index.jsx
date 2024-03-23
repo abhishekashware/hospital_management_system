@@ -1,6 +1,6 @@
 import { fonts } from 'fonts'
 import React, { useState, useEffect, useRef } from 'react'
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import COLUMNS from './columns'
 import { useTable } from 'react-table'
 import { useMemo } from 'react'

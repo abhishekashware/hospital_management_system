@@ -2,7 +2,7 @@ import Modal from 'components/GlobalComponents/Modal';
 import Input from 'components/GlobalComponents/Input';
 import Label from 'components/GlobalComponents/Label';
 import Button from 'components/GlobalComponents/Button';
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import { useDispatch, useSelector } from 'react-redux';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';

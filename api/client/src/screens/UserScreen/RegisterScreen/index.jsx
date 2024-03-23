@@ -1,6 +1,6 @@
 import { useForm } from 'react-hook-form'
 import { useDispatch } from 'react-redux'
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 
 import { userRegisterAction } from 'actions/userActions'
 import colors from "colors"

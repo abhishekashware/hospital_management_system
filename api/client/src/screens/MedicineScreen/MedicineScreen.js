@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import Logo from 'assets/images/Logo.svg'
 import Button from 'components/GlobalComponents/Button/index'
 import colors from "colors"

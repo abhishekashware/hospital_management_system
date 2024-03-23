@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import colors from "colors"
 import Card from 'components/DashboardShared/CardLayout'
 import { fonts } from 'fonts'
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import axios from 'axios'
 import returnURLFromObjectOfStrings from 'utils/returnURLFromObjectOfStrings'
 
