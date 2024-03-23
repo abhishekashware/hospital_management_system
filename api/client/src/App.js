@@ -2,8 +2,8 @@ import UserDashboard from "screens/UserDashboardScreen";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import styled from "styled-components/dist/styled-components.js";
 import HospitalDashboard from "screens/HospitaldashboardScreen";
-import LoginScreen from "screens/UserScreen/RegisterScreen";
-import RegisterScreen from "screens/UserScreen/UserLogin";
+import RegisterScreen from "screens/UserScreen/RegisterScreen";
+import LoginScreen from "screens/UserScreen/UserLogin";
 import HomeScreen from "screens/HomeScreen";
 import AboutScreen from "screens/AboutScreen";
 import ServiceScreen from "screens/ServiceScreen";
@@ -43,8 +43,8 @@ function App() {
         <Route exact path="/about" component={AboutScreen} />
         <Route exact path="/services" component={ServiceScreen} />
         <Route exact path="/doctors" component={DoctorsScreen} />
-        <Route exact path="/user_register" component={LoginScreen} />
-        <Route exact path="/user_login" component={RegisterScreen} />
+        <Route exact path="/user_register" component={RegisterScreen} />
+        <Route exact path="/user_login" component={LoginScreen} />
         <Route exact path="/hospital_login" component={HospitalLogin} />
         <Route exact path="/hospital_register" component={HospitalRegister} />
         <Route exact path="/doctor_login" component={DoctorLogin} />

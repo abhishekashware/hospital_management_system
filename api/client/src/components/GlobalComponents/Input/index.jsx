@@ -2,8 +2,10 @@
 import styled from "styled-components/dist/styled-components.js"
 
 const Input = styled.input`
-    background: ${props => props.error ? "#FF9494" : "#4DADBD"}1A;
+    background: ${props => props.error ? "#FF9494" : "#4DADBD"};
     border-radius: 10px;
+    border: 1px solid black;
+
     outline: none;
     width: ${props => props.fluid ? "100%" : 'initial'};
     padding: 20px;
@@ -13,6 +15,9 @@ const Input = styled.input`
     }
     &:disabled {
       background: #f7f3f3;
+    }
+    &::placeholder{
+      color:gray;
     }
 `
 export default Input;

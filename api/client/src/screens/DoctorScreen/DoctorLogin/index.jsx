@@ -10,6 +10,7 @@ import { useForm } from 'react-hook-form'
 import { useDispatch, useSelector } from 'react-redux'
 import { useHistory } from 'react-router-dom'
 import styled from "styled-components/dist/styled-components.js"
+import { doctorLoginAction } from 'actions/doctorActions'
 
 const FormContainer = styled.div`
     padding-left: 100px;
@@ -57,7 +58,7 @@ const LoginScreen = () => {
     const onSubmit = async (data) => {
         const { doctoremail, doctorpassword } = data;
         try {
-            // await dispatch(doctorLoginAction(doctoremail, doctorpassword));
+             await dispatch(doctorLoginAction(doctoremail, doctorpassword));
             console.log({ doctoremail, doctorpassword})
         }   
         catch (error) {
