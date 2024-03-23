@@ -1,4 +1,4 @@
-import colors from "colors";
+
 import Modal from 'react-modal'
 import styled from "styled-components/dist/styled-components.js"
 import CrossIcon from 'assets/images/cross-icon.svg'
@@ -11,7 +11,7 @@ const customStyles = {
         maxWidth: "768px",
         margin: "auto",
         padding: "50px 30px",
-        background: colors.secondaryWhite,
+        background: "#4DADBD",
         borderRadius: "20px",
         boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
     },

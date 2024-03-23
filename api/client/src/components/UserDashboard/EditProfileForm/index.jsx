@@ -6,7 +6,7 @@ import styled from "styled-components/dist/styled-components.js"
 import { useDispatch, useSelector } from 'react-redux';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import colors from "colors";
+
 
 const ModalTitle = styled.div`
     font-size: 57px;
@@ -24,7 +24,7 @@ const InputGroup = styled.div`
 
 const Error = styled.div`
     margin-top: 5px;
-    color: ${colors.error};
+    color: ${"#FF9494"};
 `
 
 

@@ -4,13 +4,12 @@ import { useSelector } from "react-redux";
 import Button from 'components/GlobalComponents/Button'
 import Modal from 'components/GlobalComponents/Modal';
 import styled from "styled-components/dist/styled-components.js";
-import colors from "colors";
 // import "bootstrap/dist/css/bootstrap.css";
 
 
 
 const ModalBody = styled.div`
-    color: ${colors.primary};
+    color: ${"#396F78"};
 `
 const ModalBodyMain = styled.div``
 

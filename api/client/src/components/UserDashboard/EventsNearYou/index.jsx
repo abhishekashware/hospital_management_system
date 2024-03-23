@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import colors from "colors"
+
 import Card from 'components/DashboardShared/CardLayout'
 import { fonts } from 'fonts'
 import styled from "styled-components/dist/styled-components.js"
@@ -23,7 +23,7 @@ const Line = styled.div`
     margin: 30px 0;
     height: 1px;
     width: 100%;
-    background: ${colors.primaryYellow};
+    background: ${"#396F78"};
 `
 
 const CardBody = styled.div`

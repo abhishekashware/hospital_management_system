@@ -2,10 +2,10 @@ import React, { forwardRef } from 'react'
 import DummyImage from 'assets/images/dummy-event-image.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import styled from "styled-components/dist/styled-components.js";
-import colors from "colors";
+
 
 const ServiceCard = styled.div`
-  background: ${colors.secondaryWhite};
+  background: ${"#4DADBD"};
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
 `
@@ -29,7 +29,7 @@ const ServiceTitle = styled.div`
 `
 
 const ServicePrice = styled.div`
-    color: ${colors.secondary};
+    color: ${"#4DADBD"};
     margin-bottom: 15px;
 `
 
@@ -37,7 +37,7 @@ const Line = styled.div`
     margin: 10px 0;
     height: 1px;
     width: 100%;
-    background: ${colors.primaryYellow};
+    background: ${"#396F78"};
   `
 
 const ServiceDescription = styled.div``

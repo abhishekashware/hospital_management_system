@@ -1,4 +1,4 @@
-import colors from "colors"
+
 import Layout from "components/GlobalComponents/Layout"
 import Section from "components/GlobalComponents/Section"
 import { fonts } from "fonts"
@@ -6,7 +6,7 @@ import styled from "styled-components/dist/styled-components.js"
 import specialitiesData from "sampleDatas/specialities"
 const StyledLayout = styled(Layout)``
 const SpecialitiesContainer = styled.div`
-    background: ${colors.secondary}1A;
+    background: ${"#4DADBD"}1A;
     
 `
 const Top = styled.div`
@@ -19,11 +19,11 @@ const Top = styled.div`
 const TopTitle = styled.div`
     font-size: 48px;
     font-weight: bold;
-    color: ${colors.darkBrown};
+    color: ${"#4F3928"};
 `
 const TopDescription = styled.div`
     font-weight: ${fonts.medium};
-    color: ${colors.lightBrown};
+    color: ${"#7C4F35"};
     font-size: 22px;
 `
 
@@ -36,12 +36,12 @@ const ItemTop = styled.div`
 `
 const ItemTitle = styled.div`
     font-weight: ${fonts.black};
-    color: ${colors.darkBrown};
+    color: ${"#4F3928"};
     font-size: 24px;
 `
 const ItemImageContainer = styled.div``
 const ItemBottom = styled.div`
-    color: ${colors.lightBrown};
+    color: ${"#7C4F35"};
     opacity: 0.8;
     font-weight: ${fonts.medium};
     font-size: 20px;

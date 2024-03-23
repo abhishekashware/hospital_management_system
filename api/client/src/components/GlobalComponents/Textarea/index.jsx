@@ -1,8 +1,8 @@
-import colors from "colors"
+
 import styled from "styled-components/dist/styled-components.js"
 
 const Textarea = styled.textarea`
-    background: ${colors.secondary}1A;
+    background: ${"#4DADBD"}1A;
     border-radius: 10px;
     outline: none;
     width: ${props => props.fluid ? "100%" : 'initial'};
@@ -10,7 +10,7 @@ const Textarea = styled.textarea`
     height: 100px;
     overflow: hidden;
       &:focus {
-        box-shadow: 0 0 0 2pt ${colors.secondary};
+        box-shadow: 0 0 0 2pt ${"#4DADBD"};
     }
 `
 

@@ -1,5 +1,5 @@
 import Button from 'components/GlobalComponents/Button'
-import colors from "colors"
+
 import Section from 'components/GlobalComponents/Section'
 import { fonts } from 'fonts'
 import styled from 'styled-components'
@@ -22,7 +22,7 @@ const GridLeft = styled.div``
 const GridRight = styled.div``
 const H1 = styled.h1`
     font-weight: ${fonts.bold};
-    color: ${colors.darkBrown};
+    color: ${"#4F3928"};
     font-size: 64px;
     line-height: 0.95;
     margin-bottom: 30px;
@@ -30,7 +30,7 @@ const H1 = styled.h1`
 
 const Description = styled.div`
     font-size: 25px;
-    color: ${colors.darkBrown};
+    color: ${"#4F3928"};
     opacity: 0.8;
     margin-bottom: 40px;
 `
@@ -43,7 +43,7 @@ const CTAButton = styled(Button)`
 `
 
 // const CTALink = styled(Link)`
-//     color: ${colors.white};
+//     color: ${"#ffffff"};
 //     font-weight: ${fonts.bold};
 
 //     letter-spacing: 0.095em;
@@ -58,7 +58,7 @@ const CovidTitle = styled.div`
     font-size: 24px;
     margin-bottom: 10px;
     font-weight: ${fonts.bold};
-    color: ${colors.primary};
+    color: ${"#396F78"};
     display: flex;
     justify-content: center;
 

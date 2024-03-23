@@ -10,7 +10,7 @@ import EventsNearYou from "components/UserDashboard/EventsNearYou";
 import HospitalsNearYou from "components/UserDashboard/HospitalsNearYou";
 import DashboardLayout from 'components/DashboardShared/DashboardLayout';
 
-import colors from "colors";
+
 
 const FlexContainer = styled.div`
   display: flex;
@@ -22,7 +22,7 @@ const FlexRight = styled.div`
 `;
 
 const Wrapper = styled.div`
-    background: ${colors.secondary}1A;
+    background: ${"#4DADBD"}1A;
     padding: 50px 30px;
 `
 const Container = styled.div`

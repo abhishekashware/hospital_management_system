@@ -1,4 +1,4 @@
-import colors from "colors"
+
 import Layout from "components/GlobalComponents/Layout"
 import Section from "components/GlobalComponents/Section"
 import Button from "components/GlobalComponents/Button"
@@ -14,14 +14,14 @@ const CovidChartContainer = styled.div`
 `
 const Title = styled.div`
     font-weight: ${fonts.bold};
-    color: ${colors.darkBrown};
+    color: ${"#4F3928"};
     font-size: 48px;
     max-width: 768px;
     margin: auto;
     margin-bottom: 25px;
 `
 const Description = styled.div`
-    color: ${colors.lightBrown};
+    color: ${"#7C4F35"};
     font-size: 22px;
      max-width: 768px;
     margin: auto;
@@ -32,7 +32,7 @@ const MainContent = styled.div`
     margin-bottom: 30px;
 `
 const StyledLink = styled(Link)`
-    color: ${colors.white};
+    color: ${"#ffffff"};
     width: 100%;
     height: 100%;
 `
@@ -110,16 +110,16 @@ const Index = () => {
                                     {
                                         borderWidth: 5,
                                         label: "Total Cases",
-                                        backgroundColor: colors.darkBrown,
-                                        borderColor: colors.darkBrown,
+                                        backgroundColor: "#4F3928",
+                                        borderColor: "#4F3928",
                                         data: [...returnChartAxis(data.cases)],
                                         pointRadius: 1
                                     },
                                     {
                                         borderWidth: 5,
                                         label: "Total Recovered",
-                                        backgroundColor: colors.primary,
-                                        borderColor: colors.primary,
+                                        backgroundColor: "#396F78",
+                                        borderColor: "#396F78",
                                         data: [...returnChartAxis(data.recovered)],
                                         pointRadius: 1
                                     },

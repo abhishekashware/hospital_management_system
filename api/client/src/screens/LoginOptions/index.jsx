@@ -1,4 +1,4 @@
-import colors from "colors"
+
 import React from 'react'
 import styled from "styled-components/dist/styled-components.js"
 import LoginOptionImage from 'assets/images/login-options-left.svg'
@@ -11,7 +11,7 @@ const OptionsContainer = styled.div`
     min-height: 100vh;
 `
 const Left = styled.div`
-    background: ${colors.secondary}1A;
+    background: ${"#4DADBD"}1A;
     display: grid;
     place-content: center;
 

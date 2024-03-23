@@ -1,5 +1,5 @@
 
-import colors from "colors"
+
 import React from 'react'
 import styled from "styled-components/dist/styled-components.js"
 import Section from '../Section'
@@ -7,8 +7,8 @@ import Section from '../Section'
 
 const FooterContainer = styled.div`
     text-align: center;
-    background: ${colors.secondary}1A;
-    color: ${colors.darkBrown};
+    background: ${"#4DADBD"}1A;
+    color: ${"#4F3928"};
     padding: 20px 0;
 `
 

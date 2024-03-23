@@ -1,5 +1,5 @@
 import styled from "styled-components/dist/styled-components.js"
-import colors from "colors";
+
 import Card from 'components/DashboardShared/CardLayout'
 import AddButton from 'assets/images/add.svg'
 // import EditButton from 'assets/images/edit.svg'
@@ -23,9 +23,9 @@ const CardBody = styled.div`
 
 const IconButton = styled.button`
     border-radius: 999px;
-    background: ${colors.secondaryWhite};
+    background: ${"#4DADBD"};
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 1px solid ${colors.secondaryWhite};
+    border: 1px solid ${"#4DADBD"};
     width: 50px;
     height: 50px;
     display: grid;
@@ -35,7 +35,7 @@ const Line = styled.div`
     margin: 30px 0;
     height: 1px;
     width: 100%;
-    background: ${colors.primaryYellow};
+    background: ${"#396F78"};
   `
 
 const Icons = styled.div``

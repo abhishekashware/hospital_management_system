@@ -1,4 +1,4 @@
-import colors from "colors"
+
 import React, { useEffect, useState } from 'react'
 import Button from 'components/GlobalComponents/Button';
 import styled from "styled-components/dist/styled-components.js"
@@ -11,7 +11,7 @@ const Line = styled.div`
     margin: 30px 0;
     height: 1px;
     width: 100%;
-    background: ${colors.primaryYellow};
+    background: ${"#396F78"};
   `
 
 const CardBottom = styled.div`
@@ -99,7 +99,7 @@ const HospitalDescriptionPublic = ({ hospitalData }) => {
 
                     <RatingContainer>
                         <HospitalName>{hospitalData && hospitalData.name}</HospitalName>
-                        <StarRatings starDimension={"18px"} rating={rating} starSpacing={"3px"} starRatedColor={colors.primary} starEmptyColor={colors.grey} />
+                        <StarRatings starDimension={"18px"} rating={rating} starSpacing={"3px"} starRatedColor={"#396F78"} starEmptyColor={"#CEB699"} />
                     </RatingContainer>
                 </NameAndRatingContainer>
                 <ApplyButtonContainer>

@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import colors from "colors"
+
 import Button from 'components/GlobalComponents/Button'
 import Input from 'components/GlobalComponents/Input'
 import Label from 'components/GlobalComponents/Label'
@@ -20,7 +20,7 @@ const FormContainer = styled.div`
 const Title = styled.h2`
     font-size: 57px;
     font-weight: ${fonts.medium};
-    color: ${colors.darkBrown};
+    color: ${"#4F3928"};
     margin-bottom: 40px;
 `
 const InputGroup = styled.div`
@@ -29,7 +29,7 @@ const InputGroup = styled.div`
 
 const Error = styled.div`
     margin-top: 5px;
-    color: ${colors.error};
+    color: ${"#FF9494"};
 `
 
 const SubmitButton = styled(Button)`
@@ -43,7 +43,7 @@ const Form = styled.form``
 
 const ForgetPassword = styled.div`
     font-waight: ${fonts.bold};
-    color: ${colors.primary};
+    color: ${"#396F78"};
     font-size: 22px;
     cursor: pointer;
     margin-bottom: 20px;

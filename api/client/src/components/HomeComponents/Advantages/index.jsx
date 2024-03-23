@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import Research from 'assets/images/medical-research.svg'
 import Tick from 'assets/images/tick.svg'
 import { fonts } from 'fonts'
-import colors from "colors"
+
 
 const AdvantagesContainer = styled.div``
 const AdvantagesSection = styled(Section)`
@@ -26,13 +26,13 @@ const FlexRight = styled.div``
 
 const Title = styled.div`
     font-weight: ${fonts.bold};
-    color: ${colors.darkBrown};
+    color: ${"#4F3928"};
     font-size: 48px;
     margin-bottom: 40px;
 `
 
 const Description = styled.div`
-    color: ${colors.lightBrown};
+    color: ${"#7C4F35"};
     font-size: 20px;
     margin-bottom: 20px;
 `
@@ -51,7 +51,7 @@ const LI = styled.li`
     display: flex;
     align-items: center;
     background: url(${Tick}) left center no-repeat;
-    color: ${colors.lightBrown};
+    color: ${"#7C4F35"};
 `
 
 const LearnMoreButton = styled(Button)`

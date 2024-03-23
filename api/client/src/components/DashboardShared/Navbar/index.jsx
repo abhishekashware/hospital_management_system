@@ -2,7 +2,7 @@ import React from "react";
 import Logo from 'assets/images/Logo.svg';
 import { Link, useParams } from 'react-router-dom'
 import styled from "styled-components/dist/styled-components.js";
-import colors from "colors";
+
 
 import Message from 'assets/images/message.svg'
 import Notifications from 'assets/images/notifications.svg'
@@ -59,7 +59,7 @@ const ProfilePictureContainer = styled.div``
 const ProfileName = styled.div`
   font-weight: ${fonts.medium};
   font-size: 24px;
-  color: ${colors.secondary};
+  color: ${"#4DADBD"};
 `
 
 const UserDetails = styled.div`

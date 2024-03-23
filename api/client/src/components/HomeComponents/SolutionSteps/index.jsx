@@ -1,4 +1,4 @@
-import colors from "colors"
+
 import Layout from 'components/GlobalComponents/Layout'
 import Section from 'components/GlobalComponents/Section'
 import { fonts } from 'fonts'
@@ -8,7 +8,7 @@ import solutionData from 'sampleDatas/stepSolution'
 const Title = styled.div`
     text-align: center;
     text-transform: uppercase;
-    color: ${colors.primary};
+    color: ${"#396F78"};
     font-weight: ${fonts.medium};
     font-size: 22px;
     margin-bottom: 10px;
@@ -18,7 +18,7 @@ const SuperTitle = styled.div`
     text-transform: uppercase;
     letter-spacing: 0.085em;
     font-size: 40px;
-    color: ${colors.primary};
+    color: ${"#396F78"};
     font-weight: ${fonts.medium};
     margin-bottom: 40px;
 `
@@ -42,11 +42,11 @@ const GridTop = styled.div`
 const GridTitle = styled.div`
     font-size: 22px;
     font-weight: ${fonts.bold};
-    color: ${colors.primary};
+    color: ${"#396F78"};
 `
 const GridBottom = styled.div`
     font-size: 18px;
-    color: ${colors.lightBrown};
+    color: ${"#7C4F35"};
 `
 const GridImageContainer = styled.div`
     margin-bottom: 12px;

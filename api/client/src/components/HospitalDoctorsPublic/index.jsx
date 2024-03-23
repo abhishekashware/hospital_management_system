@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react'
 import Card from 'components/DashboardShared/CardLayout'
 import styled from "styled-components/dist/styled-components.js"
-import colors from "colors"
+
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import Button from 'components/GlobalComponents/Button'
 import RightArrow from 'assets/images/right-arrow.svg'
@@ -23,7 +23,7 @@ const Line = styled.div`
     margin: 30px 0;
     height: 1px;
     width: 100%;
-    background: ${colors.primaryYellow};
+    background: ${"#396F78"};
   `
 
 const H2 = styled.h2`
@@ -33,7 +33,7 @@ const H2 = styled.h2`
 const RoundedButton = styled(Button)`
     border-radius: 999px;
     padding: 10px;
-    background: ${colors.secondary};
+    background: ${"#4DADBD"};
 `
 
 const RightArrowImage = styled.img`

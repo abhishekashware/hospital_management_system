@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import styled from "styled-components/dist/styled-components.js"
 import Logo from 'assets/images/Logo.svg'
 import Button from 'components/GlobalComponents/Button/index'
-import colors from "colors"
+
 import {Link} from 'react-router-dom'
 import axios from 'axios'
 
@@ -18,7 +18,7 @@ const MedicineScreen = ({history}) => {
         padding: 0.8rem 0.7rem;
         display: flex;
         justify-content: space-around;
-        background: ${colors.white};
+        background: ${"#ffffff"};
         box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.87);
         position: sticky;
         top: 0;

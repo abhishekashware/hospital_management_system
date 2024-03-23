@@ -1,12 +1,12 @@
-import colors from "colors"
+
 import styled from 'styled-components'
 import {useState, useEffect} from 'react';
 import { axiosRequest } from 'utils/axiosRequest';
 import { internationalNumberFormat } from 'utils/InternationalNumberFormat';
 
 const CovidContainer = styled.div`
-    background: ${colors.primary};
-    color: ${colors.white};
+    background: ${"#396F78"};
+    color: ${"#ffffff"};
     padding: 60px 70px;
     border-radius: 20px;
     display: flex;
@@ -15,7 +15,7 @@ const CovidContainer = styled.div`
 
 const Box = styled.div`
     text-align: center;
-    border-right: 1px solid ${props => props.isLast === true ? 'transparent' : colors.grey};
+    border-right: 1px solid ${props => props.isLast === true ? 'transparent' : "#CEB699"};
     flex: 1;
 `
 const BoxValue = styled.div`

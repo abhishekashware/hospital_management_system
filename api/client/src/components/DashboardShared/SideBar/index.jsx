@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from 'react-router-dom'
 import styled from "styled-components/dist/styled-components.js";
-import colors from "colors";
 import LogoutIcon from 'assets/images/logout.svg'
 import { useParams } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
@@ -15,7 +14,7 @@ const StyledNavLink = styled(NavLink)`
   padding: 18px 30px 18px 0px;
   align-items: center;
   &.active {
-    border-left: 7px solid ${colors.secondary};
+    border-left: 7px solid ${"#4DADBD"};
     background: linear-gradient(90deg, rgba(77, 173, 189, 0.16) 0%, rgba(173, 217, 225, 0.08) 52.08%, rgba(173, 217, 225, 0.0733333) 54.17%, rgba(255, 255, 255, 0) 100%);
   }
   &.active>div {
@@ -27,7 +26,7 @@ const ImageContainer = styled.div`
   margin-left: 20px;
 `
 const SPAN = styled.span`
-  color: ${colors.primary};
+  color: ${"#396F78"};
 `
 
 const SidebarContainer = styled.div`

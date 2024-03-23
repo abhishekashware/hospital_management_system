@@ -1,5 +1,5 @@
 import Logo from 'assets/images/Logo.svg'
-import colors from "colors"
+
 import Section from 'components/GlobalComponents/Section'
 import { fonts } from 'fonts'
 import { Link, NavLink } from 'react-router-dom'
@@ -8,7 +8,7 @@ import Button from 'components/GlobalComponents/Button'
 
 const Nav = styled.nav`
     padding: 20px 0;
-    background: ${colors.white};
+    background: ${"#ffffff"};
     position: sticky;
     top: 0;
     z-index: 2;
@@ -33,7 +33,7 @@ const LinkContainer = styled.div`
 `
 
 const StyledNavLink = styled(NavLink)`
-    color: ${colors.black};
+    color: ${"#000000"};
 `
 const ButtonContainer = styled.div``
 
@@ -50,16 +50,16 @@ const Navbar = () => {
                 </NavLeft>
                 <NavRight>
                     <LinkContainer>
-                        <StyledNavLink to="/" exact activeStyle={{ color: colors.primary }}>
+                        <StyledNavLink to="/" exact activeStyle={{ color: "#396F78" }}>
                             Home
                         </StyledNavLink>
-                        <StyledNavLink to="/about" exact activeStyle={{ color: colors.primary }}>
+                        <StyledNavLink to="/about" exact activeStyle={{ color: "#396F78" }}>
                             About
                         </StyledNavLink>
-                        <StyledNavLink to="/covid19" exact activeStyle={{ color: colors.primary }}>
+                        <StyledNavLink to="/covid19" exact activeStyle={{ color: "#396F78" }}>
                             Covid19
                         </StyledNavLink>
-                        <StyledNavLink to="/doctors" exact activeStyle={{ color: colors.primary }}>
+                        <StyledNavLink to="/doctors" exact activeStyle={{ color: "#396F78" }}>
                             Doctors
                         </StyledNavLink>
                     </LinkContainer>

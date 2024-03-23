@@ -1,4 +1,4 @@
-import colors from "colors"
+
 import styled from "styled-components/dist/styled-components.js"
 import SearchIcon from 'assets/images/search-icon.svg'
 import Button from "components/GlobalComponents/Button"
@@ -6,7 +6,7 @@ import Button from "components/GlobalComponents/Button"
 const InputContainer = styled.div`
   border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background: ${colors.white};
+  background: ${"#ffffff"};
   display: flex;
   align-items: center;
   flex: 1;
@@ -20,7 +20,7 @@ const SearchIconContainer = styled.div`
 
 const Line = styled.div`
   width: 1px;
-  background: ${colors.darkBrown};
+  background: ${"#4F3928"};
   height: 30px;
 `
 const Left = styled.div`
