@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from 'assets/images/Logo.svg';
 import { Link, useParams } from 'react-router-dom'
-import styled from 'styled-components';
+import styled from "styled-components/dist/styled-components.js";
 import colors from "colors";
 
 import Message from 'assets/images/message.svg'

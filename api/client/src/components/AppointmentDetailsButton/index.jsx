@@ -3,7 +3,7 @@ import axios from "axios";
 import { useSelector } from "react-redux";
 import Button from 'components/GlobalComponents/Button'
 import Modal from 'components/GlobalComponents/Modal';
-import styled from "styled-components";
+import styled from "styled-components/dist/styled-components.js";
 import colors from "colors";
 // import "bootstrap/dist/css/bootstrap.css";
 

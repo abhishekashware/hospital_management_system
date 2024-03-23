@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useParams } from "react";
 import Navbar from "components/DashboardShared/Navbar";
 import SideBar from "components/DashboardShared/SideBar";
-import styled from "styled-components";
+import styled from "styled-components/dist/styled-components.js";
 import useGetUserData from "hooks/useGetUserSidebarData";
 import axios from "axios";
 // import UserAppointments from "components/UserAppointments/UserAppointments";

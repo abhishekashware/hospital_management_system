@@ -1,6 +1,6 @@
 import colors from "colors";
 import Modal from 'react-modal'
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import CrossIcon from 'assets/images/cross-icon.svg'
 
 

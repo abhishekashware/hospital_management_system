@@ -1,5 +1,5 @@
 import colors from "colors"
-import styled from "styled-components"
+import styled from "styled-components/dist/styled-components.js"
 import SearchIcon from 'assets/images/search-icon.svg'
 import Button from "components/GlobalComponents/Button"
 

@@ -2,7 +2,7 @@ import colors from "colors"
 import Layout from "components/GlobalComponents/Layout"
 import Section from "components/GlobalComponents/Section"
 import { fonts } from "fonts"
-import styled from "styled-components"
+import styled from "styled-components/dist/styled-components.js"
 import specialitiesData from "sampleDatas/specialities"
 const StyledLayout = styled(Layout)``
 const SpecialitiesContainer = styled.div`

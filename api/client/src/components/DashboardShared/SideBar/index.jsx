@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from 'react-router-dom'
-import styled from "styled-components";
+import styled from "styled-components/dist/styled-components.js";
 import colors from "colors";
 import LogoutIcon from 'assets/images/logout.svg'
 import { useParams } from "react-router";

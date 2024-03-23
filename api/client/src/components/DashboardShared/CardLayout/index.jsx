@@ -1,5 +1,5 @@
 import colors from "colors"
-import styled from "styled-components"
+import styled from "styled-components/dist/styled-components.js"
 
 const CardContainer = styled.div`
     padding: 20px 0 40px;

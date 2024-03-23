@@ -3,7 +3,7 @@ import Input from "components/GlobalComponents/Input";
 import Label from "components/GlobalComponents/Label";
 import TextArea from "components/GlobalComponents/Textarea";
 import Button from "components/GlobalComponents/Button";
-import styled from "styled-components";
+import styled from "styled-components/dist/styled-components.js";
 import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
 import { updateHospitalDescription } from "actions/hospitalActions";

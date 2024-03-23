@@ -3,7 +3,7 @@ import Layout from "components/GlobalComponents/Layout"
 import Section from "components/GlobalComponents/Section"
 import Button from "components/GlobalComponents/Button"
 import { fonts } from "fonts"
-import styled from "styled-components"
+import styled from "styled-components/dist/styled-components.js"
 import { Line } from "react-chartjs-2";
 import { Link } from "react-router-dom"
 import { useState, useEffect } from "react"

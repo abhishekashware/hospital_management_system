@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react'
 import DummyImage from 'assets/images/dummy-event-image.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import styled from 'styled-components';
+import styled from "styled-components/dist/styled-components.js";
 import colors from "colors";
 
 const DoctorCard = styled.div`

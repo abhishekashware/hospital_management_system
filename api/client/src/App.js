@@ -1,6 +1,6 @@
 import UserDashboard from "screens/UserDashboardScreen";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import styled from "styled-components";
+import styled from "styled-components/dist/styled-components.js";
 import HospitalDashboard from "screens/HospitaldashboardScreen";
 import LoginScreen from "screens/UserScreen/RegisterScreen";
 import RegisterScreen from "screens/UserScreen/UserLogin";

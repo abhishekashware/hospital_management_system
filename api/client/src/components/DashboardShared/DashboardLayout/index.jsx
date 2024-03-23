@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/dist/styled-components.js";
 import Navbar from "components/DashboardShared/Navbar";
 import Sidebar from "components/DashboardShared/SideBar";
 

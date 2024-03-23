@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components/dist/styled-components.js"
 import GridLeftImage from 'assets/images/login-grid-left.svg'
 import colors from "colors"
 const Container = styled.div`

@@ -1,5 +1,5 @@
 import colors from "colors"
-import styled from "styled-components"
+import styled from "styled-components/dist/styled-components.js"
 
 const Input = styled.input`
     background: ${props => props.error ? colors.error : colors.secondary}1A;

@@ -3,7 +3,7 @@ import colors from "colors"
 import Section from 'components/GlobalComponents/Section'
 import { fonts } from 'fonts'
 import { Link, NavLink } from 'react-router-dom'
-import styled from 'styled-components'
+import styled from "styled-components/dist/styled-components.js"
 import Button from 'components/GlobalComponents/Button'
 
 const Nav = styled.nav`

@@ -7,7 +7,7 @@ import Input from "components/GlobalComponents/Input";
 import Label from "components/GlobalComponents/Label";
 import Modal from "components/GlobalComponents/Modal";
 import Button from "components/GlobalComponents/Button";
-import styled from "styled-components";
+import styled from "styled-components/dist/styled-components.js";
 import Textarea from "components/GlobalComponents/Textarea";
 
 const InputGroup = styled.div`
