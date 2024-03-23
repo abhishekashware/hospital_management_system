@@ -65,7 +65,7 @@ const ApprovedAppointments = () => {
             getApprovedList();
         };
         getAppoiments();
-    }, [datas, id, approvedList]);
+    }, []);
 
     const uploadReport = async () => {
         const reports = {};

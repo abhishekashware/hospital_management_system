@@ -75,7 +75,7 @@ const PendingAppointments = () => {
             getApprovedList();
         };
         getAppoiments();
-    }, [datas, id, approvedList]);
+    }, []);
 
     const columns = useMemo(() => COLUMNS, [])
     const data = useMemo(() => {
